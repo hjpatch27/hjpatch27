@@ -53,4 +53,28 @@ If you'd like, I can expand each featured project with:
 - Tools & workflows: Git, GitHub, command-line git workflows
 - Testing & quality: Familiar with unit testing workflows (e.g., JUnit) and course-style project testing
 
-If you want the tech list refined, I can crawl each repo's code to infer more precise frameworks and tools (JUnit, Maven/Gradle, etc.).
+
+---
+
+Project details (scanned)
+
+- F25P1MovieRater (course project — Java) — Key points:
+	- Core: Movie rating database implemented as a SparseMatrix backed by a doubly-linked list (see `src/SparseMatrix.java`).
+	- Interface & DB wrapper: `MovieRater.java`, `MovieRaterDB.java`.
+	- Tests: Extensive test suite in `src/MovieRaterTest.java` using the course test harness `student.TestCase` (not standard JUnit), covering add/delete/list/print/similarity methods.
+	- Notable: strong focus on mutation/coverage-style unit tests, algorithmic correctness (similarity, listing, printing formats).
+	- Build system: no `pom.xml` or `build.gradle` detected — project appears to compile with plain `javac` or a course-provided runner.
+
+- CS2114Lab10 (doubly linked list lab — Java) — Key points:
+	- Core: `doublylinkedlist.DLList` implementation (generic doubly-linked list) at `src/doublylinkedlist/DLList.java`.
+	- Tests: `DLListTest.java` (extends `student.TestCase`) with many unit tests for add/remove/get/iterator behavior.
+	- Focus: data structures, iterators, API contracts and exception handling.
+
+- hjpatch27 (profile repo) — this README is here and serves as a curated profile / index for your projects.
+
+Inferred tech summary (from code):
+
+- Primary language: Java (source files under `src/` in course repos).
+- Testing harness: `student.TestCase` (course-provided testing framework). Some tests follow JUnit-like patterns (assertEquals, assertTrue, etc.).
+- Libraries/APIs: Java standard library (java.util.Iterator, NoSuchElementException, StringBuilder, IO exceptions).
+- Build: No explicit Maven/Gradle detected. Projects appear to be course assignments compiled with `javac` or run with a course runner.
