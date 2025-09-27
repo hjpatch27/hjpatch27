@@ -24,11 +24,6 @@
 
 I’m a student at Virginia Tech and I’ve worked as an intern with the Naval Research Enterprise Internship Program. I enjoy building small projects and learning systems and software engineering practices.
 
-If you want, I can add:
-
-- A curated list of featured projects from this account
-- A tech stack / skills section (from your repositories)
-- A GitHub stats card or profile banner
 
 ---
 
@@ -40,11 +35,6 @@ If you want, I can add:
 - 🔒 [F25P1MovieRater](https://github.com/hjpatch27/F25P1MovieRater) — Movie rater / rating system for a course project (Java). Private repository.
 - 🔒 [CS2114Lab10](https://github.com/hjpatch27/CS2114Lab10) — Doubly linked list lab (Java). Private repository.
 
-If you'd like, I can expand each featured project with:
-
-- A one-line description pulled from the repo README (if available)
-- Key technologies used per project
-- Top README badges (build, tests) where applicable
 
 ### Tech & Skills
 
